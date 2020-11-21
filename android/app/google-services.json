@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "510090870523",
+    "firebase_url": "https://equations-game-react.firebaseio.com",
+    "project_id": "equations-game-react",
+    "storage_bucket": "equations-game-react.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510090870523:android:f15dc6a8e00422c7dffa5e",
+        "android_client_info": {
+          "package_name": "com.mathgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510090870523-a3hfauv6p39npi1r6k167i3af4njetja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRdN1hM1b3gL25yKiGrkAJ4p8E5XXg-94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510090870523-a3hfauv6p39npi1r6k167i3af4njetja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

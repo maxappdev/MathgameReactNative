@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "android-shake": "adb shell input keyevent 82",
+    "debug-firebase": "adb shell setprop debug.firebase.analytics.app com.mathgame",
+    "debug-firebase-off": "adb shell setprop debug.firebase.analytics.app .none.",
     "log": "react-native log-android",
     "android": "react-native run-android --port 8088",
     "ios": "react-native run-ios",
@@ -14,6 +16,8 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-firebase/analytics": "^10.0.0",
+    "@react-native-firebase/app": "^10.0.0",
     "@react-navigation/native": "^5.8.9",
     "@react-navigation/stack": "^5.12.6",
     "@unimodules/core": "^5.5.1",

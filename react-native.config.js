@@ -1,4 +1,4 @@
-
+//TODO try to delete it, nothing should happen
 module.exports = {
     project: {
         ios: {},
