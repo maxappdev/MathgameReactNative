@@ -10,6 +10,9 @@ target 'mathgame' do
 
   pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
 
+  pod 'RNSoundPlayer', :path => '../node_modules/react-native-sound-player'
+
+
   target 'mathgameTests' do
     inherit! :complete
     # Pods for testing
