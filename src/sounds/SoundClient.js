@@ -12,7 +12,6 @@ const playSound = async (path) => {
     //if (await isSoundEnabled()) {
     try {
         let soundObj = await AudioObject.getInstance();
-        await soundObj.setStatusAsync({shouldPlay: false});
         await soundObj.unloadAsync();
         await soundObj.loadAsync(path);
         await soundObj.setStatusAsync({shouldPlay: true});
